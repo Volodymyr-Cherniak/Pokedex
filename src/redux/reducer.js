@@ -4,7 +4,7 @@ export const OPEN_INFO = 'OPEN_INFO';
 export const initialState = {
   pokemon: [],
   url: 'https://cors-anywhere.herokuapp.com/http://pokeapi.co/api/v2/pokemon/',
-  limit: '?limit=12',
+  limit: '?limit=9',
   nextPage: '',
   isOpen: false,
   pokemonData: {}
