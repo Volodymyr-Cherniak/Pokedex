@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/*TypeColor*/
+.electric {
+  background: #ffc107;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.water, .ice {
+  background: rgba(7, 135, 248, 0.61);
+}
+
+.normal {
+  background: #d0d0d0;
+}
+
+.flying {
+  background: #95ddff;
+}
+
+.grass, .bug {
+  background: #95ec95;
+}
+
+.fairy, .psychic {
+  background: #ff00ff;
+}
+
+.fighting, .fire {
+  background: #ee7510;
+}
+
+.poison {
+  background: #a58cb2;
+}
+
+.rock, .ground {
+  background: #a1906a;
+}
+
+.dragon {
+  background: #aa7100;
+}
+
+.ghost, .dark {
+  background: #101110;
+  color: #d0d0d0;
+}
+
+.steel {
+  background: #9a9999;
+}
+
+.correct {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sze {
+  height: 280px;
+  width: 190px;
 }
